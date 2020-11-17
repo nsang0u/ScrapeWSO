@@ -1,1 +1,3 @@
 # ScrapeWSO
+
+The following is a script I wrote to help a current Williams College student assemble a directory of student emails from the Williams directory website for an academic project. I took this opportunity to familiarize myself with the web scraping data collection process using Selenium paired with Chromedriver as a headless browser. While I’d had experience scraping simple HTML sources in the past with packages such as Beautifulsoup, the target site here uses Javascript, rendering it unreadable to simple HTML scraping methods as the source itself doesn’t contain the desired data elements. Using Selenium with a headless browser allows for direct interaction with the page elements rendered through Javascript. 
